@@ -1,0 +1,3 @@
+My name is Stephen and I like CS.
+I also like to play games and eat different kinds of food.
+This me attempt at making a webpage with HTML, CSS, and Flask.
