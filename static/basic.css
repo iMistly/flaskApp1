@@ -29,11 +29,11 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Averta, sans-serif;
+    color: #13a72e;
     font-size: 22px;
     line-height: 36px;
     font-style: normal;
     font-weight: 700;
-    text-transform: uppercase;
   }
   
   /* Formatting for paragraph text */
@@ -98,5 +98,9 @@ body {
     padding-right: 25px;
     padding-left: 10px;
     float: left;
+    border-bottom: 2px solid white;
+  }
+
+  .underline {
     border-bottom: 2px solid white;
   }

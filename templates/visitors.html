@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="static/basic.css">
+    <title>{{ name }}</title>
+</head>
+
+<body>
+    <h1>Visitors</h1>
+
+    <div class="menu-link">
+        <a href="/"> GO BACK </a>
+    </div>
+    <br/><br/>
+
+    <h2 class="underline"> Name - Visits </h2>
+
+    {% for person in people %}
+
+    <h2>{{ person }}</h2>
+
+    {% endfor %}
+</body>
